@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-ico">
+    <link rel="stylesheet" href="form.css">
+    <title>form</title>
+</head>
+<body>
+    <video src="https://www.youtube.com/watch?v=OwrSOPNpPpM" controls width="300" height="250" id="video"></video>
+   <h1 id="heading"> <span id="headmess"> Fill in the Registration Details! </span></h1>
+    <form action="" id="form">
+        <div id="username" class="myform">
+            <label for="Username" id="us">User Name</label>
+            <input id="userna" type="text" name="name" placeholder="Enter your name">
+            
+        </div><br>
+        <div id="usermobile" class="myform">
+            <label for="Usermobile" id="mo">User Mobile</label>
+            <input id="mobile" type="text" name="mobile" placeholder="Enter your mobile-number" pattern="[0-10]{10}" title="1111111111"/>
+           
+        </div> <br>
+        <div id="useremail" class="myform">
+            <label for="Useremail" id="em">User email</label>
+            <input type="email" name="email"  id="email" placeholder="Enter your email" required/> 
+            <!--required is used because..it informs to fill the details-->
+        </div><br>
+        <div id="password" class="myform"> 
+            <label for="password" id="pass">User password</label>
+            <input type="password" name="password" id="pasword" placeholder="Enter the password">
+        </div><br>
+        <div id="caim">
+            <img id="bookingCar" src="images/bookingCar.jpg" alt="No Image Found!">
+        </div><br>
+        <div id="pic2">
+            <img id="pi2" src="images/pic2.jpg" alt="Image Not Found!"><br>
+            <span>It has more freedom!</span>
+        </div><br>
+        <div id="radio" class="myform">
+            Gender : Male :<input type="radio" name="Gender" id="male"> Female:<input type="radio" name="Gender" id="female">
+        </div><br>
+        <div id="age" class="myform">
+             Age : <input type="number" name="age" id="agee" min="22" max="60" value=""/>
+        </div>
+        <br>
+        <div id="skill">
+           Driving Skills : <input type="range" name="range" id="ran"/>
+        </div>
+        <br>
+        <div id = "dropbox" class="myform">
+            Choose your vehicle : <select name="cars" id="cars">
+                 <option value="swift">Swift</option>
+                 <option value="Eon">Eon</option>
+            </select>
+        </div>
+        <br>
+        <div id="search" class="myform">
+            Search : <input type="search" name="search" id="mysearch"> <!--search is used for searching!-->
+        </div>
+        <br>
+        <div id="textarea" class="myform">
+           <textarea name="textarea" id="textareaa" cols="50" rows="3" placeholder="If any Query! Share it here..."></textarea>
+        </div>
+        <br>
+        <div id="date" class="myform">
+            <input type="date" name="date" id="dat">
+        </div>
+        <br>
+        <div id="photo">
+           Upload your photo : <input type="file" name="photo" id="photoo">
+        </div>
+        <br>
+        <div id="checkbox" class="myform">
+            Read all terms and conditions? <input type="checkbox" name="conditions" id="conditions">
+            <br>
+        </div>
+        <br>
+        <input type="button" value="Register" id="register">
+    </form>
+</body>
+</html>

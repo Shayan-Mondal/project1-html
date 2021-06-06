@@ -1,0 +1,195 @@
+body{
+    background-color: lightgrey;
+}
+#video{
+    margin-left: 470px;
+}
+#heading{
+    color: rgb(11, 11, 124);
+    background-color: rgb(203, 247, 247);
+    font-family: cursive;
+    padding: 10px;
+}
+#headmess{
+    text-align: center;
+    margin-left: 360px;
+    padding: 10px;
+}
+#username{
+    margin-left: 450px;
+}
+#us{
+    font-family:cursive;
+}
+#userna{
+    padding: 5px;
+    margin-left: 9px;
+    background-color: rgb(224, 201, 201);
+    color: black;
+    border: 5px;
+    border-radius: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#userna:hover{
+    background-color: darkslategrey;
+    color: floralwhite;
+}
+#usermobile{
+    margin-left: 443px;
+}
+#mo{
+    font-family:cursive;
+}
+#mobile{
+    padding: 5px;
+    margin-left: 9px;
+    background-color: rgb(224, 201, 201);
+    color: black;
+    border: 5px;
+    border-radius: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#useremail{
+    margin-left: 443px;
+}
+#em{
+    font-family:cursive;
+}
+#email{
+    padding: 5px;
+    margin-left: 20px;
+    background-color: rgb(224, 201, 201);
+    color: black;
+    border: 5px;
+    border-radius: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#password{
+    margin-left: 420px;
+}
+#pass{
+    font-family:cursive;
+}
+#pasword{
+    padding: 5px;
+    margin-left: 11px;
+    background-color: rgb(224, 201, 201);
+    color: black;
+    border: 5px;
+    border-radius: 25px;
+    font-family: cursive;
+}
+#radio{
+    margin-left: 470px;
+    font-family:cursive;
+}
+#age{
+    margin-left: 495px;
+    font-family:cursive;
+}
+#agee{
+    padding: 5px;
+    width: 40px;
+    margin-left: 8px;
+    border: 5px;
+    border-radius: 50px;
+    background-color:rgb(204, 231, 233);
+    color: rgb(23, 17, 51);
+}
+#skill{
+    margin-left: 425px;
+    font-family:cursive;
+}
+#ran{
+    margin-left: 8px;
+}
+#dropbox{
+    margin-left: 378px;
+    font-family:cursive;
+}
+#cars{
+    padding: 5px;
+    margin-left: 8px;
+    border: 5px;
+    border-radius: 50px;
+    background-color:rgb(204, 231, 233);
+    color: rgb(23, 17, 51);
+    cursor: grabbing;
+}
+#search{
+    margin-left: 470px;
+    font-family:cursive;
+}
+#mysearch{
+    padding: 5px;
+    border: 5px;
+    border-radius: 50px;
+    background-color:rgb(204, 231, 233);
+    color: rgb(23, 17, 51);
+}
+#textarea{
+    margin-left: 430px;
+    font-family:cursive;
+}
+#textareaa{
+    border: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(234, 234, 241);
+    color: rgb(45, 45, 133);
+}
+#date{
+    margin-left: 510px;
+    font-family:cursive;
+}
+#dat{
+    font-style: italic;
+    color: rgb(42, 42, 104);
+    background-color: rgb(234, 234, 241);
+    cursor: grab;
+}
+#photo{
+    margin-left: 390px;
+    font-family:cursive;
+}
+#checkbox{
+    margin-left: 470px;
+    font-family:cursive
+}
+#register{
+    border-radius: 100px;
+    border-color: whitesmoke;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 510px;
+    background-color: rgb(17, 16, 16);
+    color: whitesmoke;
+    font-style: italic;
+    font-family: cursive;
+}
+#register:hover{
+    background-color: rgb(231, 45, 12);
+    color: black;
+    cursor: grabbing;
+}
+#caim{
+    position: absolute;   
+    width: 300px;
+    height: 300px;
+}
+#bookingCar{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+#pic2{
+    position: absolute;
+    margin-left: 900px;
+}
+#pi2{
+    width: 300px;
+    height: 300px;
+}
